@@ -1,0 +1,26 @@
+\chapter{Welcome to chapter two}
+\pagestyle{fancy}
+
+\lipsum[9]
+
+
+
+\begin{mdframed}[style=custom,frametitle=\colorbox{berkeleygold}{\space Put your title here \space}]
+
+You might like to use these boxes for essays or to break up text. Unlike the mybox environment, mdframed will break across pages.
+
+Don't like the colors?
+
+You can change them by editing the sidebar section of report.tex. In mdfdefinestyle, look for \textbackslash colorbox\{berkeleygold\} to alter the title background. If you want no color, just change berkeleygold to white. If you want to dilute the color a bit, you could add a !30 to the end of berkeleygold, as in berkeleygold!30
+
+The background color is set by backgroundcolor and it is currently founderblue!20. You can deepen it by increasing the number or lighten it by reducing the number to 10 or even 5.
+
+\end{mdframed}
+
+
+\begin{mdframed}[style=custom,frametitle=\colorbox{berkeleygold}{\space This is my second box \space}]
+
+Please note, you have to specify your title in each box in the frametitle option. Just put your title between the \textbackslash space commands.
+
+\end{mdframed}
+
